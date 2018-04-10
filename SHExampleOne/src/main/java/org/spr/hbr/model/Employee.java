@@ -22,7 +22,8 @@ public class Employee {
 	@Column(name = "SALARY")
 	private BigDecimal salary;
 	
-
+	public Employee(){}
+	
 	public int getId() {
 		return id;
 	}
